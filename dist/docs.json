@@ -1,0 +1,41 @@
+{
+  "api": {
+    "name": "RingtonePickerPlugin",
+    "slug": "ringtonepickerplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "echo",
+        "signature": "(options: { value: string; }) => Promise<{ value: string; }>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ value: string; }"
+          }
+        ],
+        "returns": "Promise<{ value: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "echo"
+      },
+      {
+        "name": "pickRingtone",
+        "signature": "() => Promise<{ uri: string; title: string; }>",
+        "parameters": [],
+        "returns": "Promise<{ uri: string; title: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "pickringtone"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
